@@ -6,7 +6,17 @@ Override various Jira layout troubles in Mayadata.
 
 # Install
 
-Signed extension is in `jira-overrides/web-ext-artifacts`. Navigate to the folder with firefox and click on XPI file.
+## Firefox
+
+Signed extension is in `jira-overrides/web-ext-artifacts`. Navigate to the folder with firefox (`file:///...` URL) and click on XPI file.
+
+## Brave/Chrome
+
+- navigate to `chrome://extensions`
+- in upper right corner enable "developer mode"
+- click on "Load Unpacked"
+- navigate to the folder with `manifest.json`
+- click ok :-)
 
 # TODO
 
