@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "JiraCSS",
+  "name": "Jira Overrides",
   "version": "1.0",
 
-  "description": "Overrides various css stuff for Jira",
+  "description": "Overrides various stuff in Jira",
 
   "content_scripts": [
     {
