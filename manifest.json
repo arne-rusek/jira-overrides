@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "JiraCSS",
+  "version": "1.0",
+
+  "description": "Overrides various css stuff for Jira",
+
+  "content_scripts": [
+    {
+      "matches": ["*://mayadata.atlassian.net/browse/*"],
+      "js": ["browse-layout.js"]
+    }
+  ]
+}
