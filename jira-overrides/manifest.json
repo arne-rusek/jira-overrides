@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Jira Overrides",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Overrides various stuff in Jira",
 

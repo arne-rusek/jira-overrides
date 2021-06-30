@@ -13,11 +13,18 @@ function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+
 function setElementsStyle() {
-	document.getElementById("jira-issue-header").parentElement.parentElement.style.width = "85%";
-	document.getElementById("jira-issue-header").parentElement.parentElement.style.paddingLeft = "0";
-	document.getElementById("jira-issue-header-actions").parentElement.parentElement.style.width = "15%";
-	document.getElementById("jira-issue-header-actions").parentElement.parentElement.style.paddingRight = "0";
+	elem = document.getElementById("jira-issue-header");
+	if (elem !== null) {
+		elem.parentElement.parentElement.style.width = "85%";
+		elem.parentElement.parentElement.style.paddingLeft = "0";
+	}
+	elem = document.getElementById("jira-issue-header-actions")
+	if (elem !== null) {
+		elem.parentElement.parentElement.style.width = "15%";
+		elem.getElementById("jira-issue-header-actions").parentElement.parentElement.style.paddingRight = "0";
+	}
 }
 
 async function jiraCSSApply() {

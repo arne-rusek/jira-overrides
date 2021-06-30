@@ -1,5 +1,5 @@
 all:
-	echo 'use some target manually'
+	@echo 'use some target manually'
 
 docker_buildimg:
 	docker build -t jira-override-builder .
